@@ -1,10 +1,7 @@
-**项目说明** 
+# 项目说明
 轻量级的Java快速开发平台，来自【人人快速平台】。
-<br> 
- 
 
-
-**具有如下特点** 
+## 具有如下特点
 - 友好的代码结构及注释，便于阅读及二次开发
 - 实现前后端分离，通过token进行数据交互，前端再也不用关注后端技术
 - 灵活的权限控制，可控制到页面或按钮，满足绝大部分的权限需求
@@ -16,9 +13,8 @@
 - 引入云存储服务，已支持：七牛云、阿里云、腾讯云等
 - 引入swagger文档支持，方便编写API接口文档
 - 引入路由机制，刷新页面会停留在当前页
-<br> 
 
-**项目结构** 
+## 项目结构
 ```
 renren-fast
 ├─doc  项目SQL语句
@@ -45,19 +41,18 @@ renren-fast
 │  └─views  项目静态页面
 
 ```
-<br> 
 
-**如何交流、反馈、参与贡献？** 
+
+## 如何交流、反馈、参与贡献？
 - 开发文档：http://www.renren.io/open/renren-fast/
 - Git仓库：http://git.oschina.net/babaio/renren-fast
 - 其他项目：http://www.renren.io/open/
 - [编程入门教程](http://www.renren.io)：http://www.renren.io   
 - 官方QQ群：324780204、145799952
 - 如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持
-<br> 
 
 
-**技术选型：** 
+## 技术选型：
 - 核心框架：Spring Boot 1.5
 - 安全框架：Apache Shiro 1.3
 - 视图框架：Spring MVC 4.3
@@ -69,9 +64,9 @@ renren-fast
 <br> 
 
 
- **本地部署**
+## 本地部署
 - 通过git下载源码
-- 创建数据库renren_fast，数据库编码为UTF-8
+- 创建数据库renren，数据库编码为UTF-8
 - 执行doc/db.sql文件，初始化数据
 - 修改application-dev.yml，更新MySQL账号和密码
 - Eclipse、IDEA运行RenrenApplication.java，则可启动项目
@@ -80,16 +75,16 @@ renren-fast
 - Swagger路径：http://localhost/swagger/index.html
 
 
- **项目演示**
+## 项目演示
 - 演示地址：http://demo.open.renren.io/renren-fast
 - 账号密码：admin/admin
 <br> 
 
-**接口文档效果图：**
+## 接口文档效果图：
 ![输入图片说明](http://cdn.renren.io/img/6e8d7575fb8240d49b949dc0f02547bc "在这里输入图片标题")
 <br> <br> <br> 
 
-**演示效果图：**
+## 演示效果图：
 ![输入图片说明](http://cdn.renren.io/img/4f15a5513e4e4a00a07294e87c548982 "在这里输入图片标题")
 ![输入图片说明](http://cdn.renren.io/img/9b0c60dfe7ee48fb87bb933e31ebf36f "在这里输入图片标题")
 ![输入图片说明](http://cdn.renren.io/img/f59b6f61c36f49e1851a5bf3e91a1e5b "在这里输入图片标题")
